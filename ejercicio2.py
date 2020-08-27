@@ -1,7 +1,7 @@
 import math
 n = int(input("digite un numero==>"))
 
-def esPrimo(n):
+def Primo(n):
     contador = 0
     resultado = True
     
@@ -12,7 +12,7 @@ def esPrimo(n):
             resultado = False
             break
     return resultado
-if (esPrimo(n) == True):
+if (Primo(n) == True):
         print("es==>" + str(n) + "= un numero primo")
 else: 
         print("el numero==>" + str(n) + "=no es un numero primo ")
